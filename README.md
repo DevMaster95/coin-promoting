@@ -4,7 +4,7 @@
 Clone Repo:
 
 ```sh
-git clone https://github.com/NFTNavigator/coin-promoting
+git clone https://github.com/DevMaster95/coin-promoting
 cd coin-promoting
 ```
 
