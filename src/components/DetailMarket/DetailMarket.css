@@ -1,0 +1,43 @@
+.detailMarketDiv {
+  width: 500px;
+  /* height: 100%; */
+  background-image: linear-gradient(to right, #dc1bd9, #4eb4c3);
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+
+  border-top-right-radius: 15px;
+  margin-top: 30px;
+}
+
+.detailMarketWrappedDiv {
+  background-color: #290825;
+  border-top-right-radius: 15px;
+  padding: 30px 30px 30px 30px;
+}
+
+.detailMarketTitleDiv {
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  border-bottom: #4eb4c3 1px solid;
+}
+.detailMarketContentDiv {
+  font-size: 17px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: white;
+  border-bottom: #4eb4c3 1px solid;
+}
+
+@media only screen and (max-width: 1700px) {
+  .detailMarketDiv {
+    padding-left: 3px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .detailMarketDiv {
+    width: 310px;
+    padding-left: 3px;
+  }
+}

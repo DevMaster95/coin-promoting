@@ -1,0 +1,214 @@
+::-webkit-scrollbar {
+  width: 3px;
+  height: 8px;
+}
+::-webkit-scrollbar {
+  width: thin;
+  color: #a6a6a6 transparent;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #a6a6a6;
+  border-radius: 6px;
+  border: transparent;
+}
+
+/* 
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+} */
+
+.mainPage {
+  width: 100%;
+  height: 100%;
+  background-image: url('../../assets/img/bg.png');
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.navArea {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchInput {
+  color: white;
+  /* border-top-color: linear-gradient(to right, #AC42A7 50%, #7EA1AF 50%);
+    border-left-color: #AC42A7;
+    border-right-color: #7EA1AF;
+    border-bottom-color: linear-gradient(to right, #AC42A7, #7EA1AF);  */
+  border-image-source: linear-gradient(to right, #ac42a7, #7ea1af);
+  border-image-slice: 1;
+  border-style: solid;
+  border-width: 1px;
+  /* border-radius: 15px; */
+  height: 40px;
+  font-size: 17px;
+  width: 300px;
+  background-color: transparent;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.navBtnWrappedDiv {
+  padding: 2px 2px 2px 2px;
+  background-image: linear-gradient(to right, #f610fe, #43b5e6);
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  height: 40px;
+}
+
+.navBtns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navBtn {
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 17px;
+  background-color: #202d20;
+  width: 100%;
+}
+
+.navBtn:hover {
+  background-image: linear-gradient(to right, #f610fe, #43b5e6);
+  cursor: pointer;
+}
+
+.btnArea {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* padding-left: 10px;
+    padding-right: 10px;
+    width: 100%; */
+}
+
+.btnArea button {
+  padding-left: 15px;
+  padding-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 40px;
+  width: 250px;
+  min-width: 200px;
+  background-color: transparent;
+  color: white;
+  border-image-source: linear-gradient(to right, #ac42a7, #7ea1af);
+  border-width: 1pt;
+  border-image-slice: 1;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.btnArea button:hover {
+  background-image: linear-gradient(to right, #f610fe, #43b5e6);
+}
+
+.selectTools {
+  padding-left: 30px;
+  padding-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  height: 40px;
+  width: 250px;
+  min-width: 200px;
+  background-color: transparent;
+  color: white;
+  border-image-source: linear-gradient(to right, #ac42a7, #7ea1af);
+  border-width: 1pt;
+  border-image-slice: 1;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.selectTools:hover {
+  background-image: linear-gradient(to right, #f610fe, #43b5e6);
+}
+
+.selectTools option {
+  background: #040002;
+  font-size: 17px;
+}
+
+.selectTools option:hover {
+  background: #f610fe;
+}
+
+.logoImg img:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1340px) {
+  .btnArea {
+    /* flex-direction: column; */
+    overflow-x: scroll;
+  }
+}
+
+@media only screen and (max-width: 2450px) {
+  .navBtns {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mainDiv {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .logoImg {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .inputDiv {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .navBtns {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .navBtnWrappedDiv {
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .searchInput {
+    width: 250px;
+  }
+  .logoImg img {
+    width: 100%;
+  }
+  .navBtnWrappedDiv {
+    width: 200px;
+  }
+}

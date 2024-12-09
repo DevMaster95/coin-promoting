@@ -1,0 +1,111 @@
+.overviewDiv {
+  width: 700px;
+  /* height: 100%; */
+
+  position: relative;
+}
+.overviewWrappDiv {
+  background-image: linear-gradient(to right, #dc1bd9, #4eb4c3);
+  width: 100%;
+  padding: 3px 3px 3px 3px;
+  border-top-right-radius: 25px;
+  position: relative;
+}
+
+.overviewWrappedDiv {
+  background-color: #290825;
+  border-top-right-radius: 25px;
+  padding: 30px 30px 30px 30px;
+  min-height: 550px;
+}
+
+.headerTitle {
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.dateDiv {
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.descriptionDiv {
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 40px;
+  word-break: break-word;
+}
+.videoDiv {
+  width: 100%;
+  height: 100%;
+}
+
+.overviewTitleDiv {
+  padding: 2px 2px 2px 2px;
+  background-image: linear-gradient(to right, #dc1bd9, #4eb4c3);
+  position: absolute;
+  top: -40px;
+  left: 260px;
+  border-radius: 20px;
+  width: 150px;
+  height: 70px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.overviewTitleWrappedDiv {
+  background-color: #232c29;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 1024px) {
+  .overviewDiv {
+    width: 550px;
+    /* justify-content: center; */
+  }
+  .overviewTitleDiv {
+    left: 220px;
+    top: -35px;
+    font-size: 17px;
+    width: 130px;
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .overviewDiv {
+    width: 330px !important;
+    /* justify-content: center; */
+  }
+  .overviewTitleDiv {
+    left: 120px;
+    width: 110px;
+    height: 50px;
+    top: -25px;
+    font-size: 15px;
+    /* padding: 1px 1px 1px 1px; */
+  }
+  .overviewWrappedDiv {
+    padding: 30px 15px 30px 15px;
+  }
+  .headerTitle {
+    font-size: 17px;
+  }
+  .descriptionDiv {
+    font-size: 17px;
+  }
+  .dateDiv {
+    font-size: 17px;
+  }
+}

@@ -1,0 +1,182 @@
+.defaultMainDiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerImgDiv {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.bannerAreaDiv {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+}
+.banner1Div img {
+  width: 100%;
+  height: 100%;
+}
+.banner2Div img {
+  width: 100%;
+  height: 100%;
+}
+
+.banner3Div img {
+  width: 100%;
+  height: 100%;
+}
+
+.headerImgDiv img {
+  width: 100%;
+  height: 200px;
+}
+
+.promotedCoinDiv {
+  margin-bottom: 50px;
+}
+
+.allCoinDiv {
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+  .bannerAreaDiv {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .banner1Div img {
+    width: 250px;
+  }
+  .banner2Div img {
+    width: 250px;
+  }
+  .banner3Div img {
+    width: 250px;
+  }
+}
+
+/* Banner 1 animation */
+.banner1Div {
+  position: relative;
+  width: 500px;
+  height: 200px;
+  /* margin:0 auto; */
+}
+
+.banner1Div img {
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 3s ease-in-out;
+  -moz-transition: opacity 3s ease-in-out;
+  -o-transition: opacity 3s ease-in-out;
+  transition: opacity 3s ease-in-out;
+}
+
+@keyframes banner1FadeInOut {
+  0% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.banner1Div img.second {
+  animation-name: banner1FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-direction: alternate;
+}
+
+/* Banner 2 animation */
+.banner2Div {
+  position: relative;
+  width: 500px;
+  height: 200px;
+  /* margin:0 auto; */
+}
+
+.banner2Div img {
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 4s ease-in-out;
+  -moz-transition: opacity 4s ease-in-out;
+  -o-transition: opacity 4s ease-in-out;
+  transition: opacity 4s ease-in-out;
+}
+
+@keyframes banner2FadeInOut {
+  0% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.banner2Div img.second {
+  animation-name: banner2FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-direction: alternate;
+}
+
+/* Banner 3 animation */
+.banner3Div {
+  position: relative;
+  width: 500px;
+  height: 200px;
+  /* margin:0 auto; */
+}
+
+.banner3Div img {
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 5s ease-in-out;
+  -moz-transition: opacity 5s ease-in-out;
+  -o-transition: opacity 5s ease-in-out;
+  transition: opacity 5s ease-in-out;
+}
+
+@keyframes banner3FadeInOut {
+  0% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.banner3Div img.second {
+  animation-name: banner3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-direction: alternate;
+}
