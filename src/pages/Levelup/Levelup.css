@@ -1,0 +1,66 @@
+.levelupDiv {
+  width: 100%;
+  height: 800px;
+
+  background-image: linear-gradient(to right, #4eb4c3, #dc1bd9);
+  border: 1px solid;
+
+  padding: 5px 5px 5px 5px;
+  border-radius: 50px;
+}
+
+.levelupWrappedDiv {
+  background-image: url('../../assets/img/levelup_bg1.png');
+  background-size: cover;
+
+  border-radius: 50px;
+  width: 100%;
+  height: 100%;
+}
+
+.levelupHeaderDiv {
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.levelupFooterDiv {
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.levelupContentTitle {
+  margin-top: 70px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .levelupWrappedDiv {
+    background-image: url('../../assets/img/levelup_bg2.png');
+  }
+}
+@media only screen and (max-width: 800px) {
+  .levelupHeaderDiv img {
+    width: 500px;
+  }
+  .levelupFooterDiv img {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .levelupHeaderDiv img {
+    width: 300px;
+  }
+  .levelupFooterDiv img {
+    width: 300px;
+  }
+}

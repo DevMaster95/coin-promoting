@@ -1,0 +1,106 @@
+.buyCardDivWrap {
+  width: 400px;
+  height: 400px;
+  background-color: transparent;
+
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 20px 20px 20px;
+
+  border-style: solid;
+  border-image-source: linear-gradient(to right, #ac42a7, #7ea1af);
+  border-width: 1px;
+  border-image-slice: 1;
+
+  border-top-right-radius: 15px;
+}
+
+.buyCardImgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.buyCardImgDiv img {
+  width: 200px;
+}
+
+.bnbAreaDiv {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.bnbAreaDiv span {
+  color: white;
+  font-size: 40px;
+}
+
+.bnbAreaDiv img {
+  width: 50px;
+}
+
+.buyCardBtnDiv {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  margin-top: -60px;
+}
+
+.buyCardBtnDiv button {
+  width: 50%;
+  height: 80px;
+  background-color: transparent;
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+
+  background-color: #290825;
+
+  border-style: solid;
+  border-image-source: linear-gradient(to right, #ac42a7, #7ea1af);
+  border-width: 1px;
+  border-image-slice: 1;
+}
+
+.buyCardBtnDiv button:hover {
+  background-image: linear-gradient(to right, #f610fe, #43b5e6);
+}
+
+@media only screen and (max-width: 1024px) {
+  .buyCardDivWrap {
+    width: 150px;
+    height: 150px;
+  }
+
+  .bnbAreaDiv span {
+    font-size: 20px;
+  }
+
+  .bnbAreaDiv img {
+    width: 22px;
+  }
+  .buyCardBtnDi {
+    height: 50px;
+  }
+  .buyCardBtnDiv button {
+    font-size: 15px;
+    height: 40px;
+  }
+  .buyCardImgDiv {
+    margin-bottom: 10px;
+  }
+  .buyCardImgDiv img {
+    width: 100px;
+  }
+  .buyCardBtnDiv button:hover {
+    background-image: linear-gradient(to right, #f610fe, #43b5e6);
+  }
+
+  .buyCardBtnDiv {
+    margin-top: -40px;
+  }
+}

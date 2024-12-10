@@ -1,0 +1,52 @@
+.treasuryDiv {
+  width: 100%;
+}
+.treasuryAdvertiseDiv {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.treasuryAdvertiseDiv img {
+  width: 100%;
+}
+
+.treasuryBudgetDiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+.treasuryContentsDiv {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 20px;
+}
+.treasuryBudgetDiv {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.budgetWrapperDiv {
+  width: 250px;
+  position: absolute;
+}
+
+.budgetWrapperDiv img {
+  width: 100%;
+}
+
+.budgetAmountDiv {
+  position: relative;
+  background-color: transparent;
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  top: 60px;
+  text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  .treasuryContentsDiv {
+    font-size: 17px;
+  }
+}

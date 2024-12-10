@@ -1,0 +1,38 @@
+.TiersDiv {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.TiersBodyDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.TiersHeaderDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.TiersHeaderDiv span {
+  color: white;
+  font-size: 30px;
+}
+
+.TiersHeaderDiv img {
+  height: 50px;
+}
+
+@media only screen and (max-width: 1050px) {
+  .TiersBodyDiv {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .TiersHeaderDiv {
+    flex-direction: column;
+  }
+}
