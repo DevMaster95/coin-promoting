@@ -1,0 +1,47 @@
+.buyNitrogemAreaDiv {
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid white; */
+}
+
+.buyNitrogemHeader1Div {
+  margin: 20px 20px 20px 20px;
+}
+
+.buyNitrogemHeader1Div span {
+  color: white;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 2000;
+}
+
+.buyNitrogemHeader2Div {
+  margin-left: 10px;
+  margin: 20px 20px 20px 20px;
+}
+
+.buyNitrogemHeader2Div span {
+  color: white;
+  font-size: 30px;
+  font-weight: 1500;
+}
+
+.buyCardArea {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-shrink: inherit;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 1400px) {
+  .buyNitrogemHeader1Div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+  }
+  .buyNitrogemHeader1Div span {
+    font-size: 25px;
+  }
+}

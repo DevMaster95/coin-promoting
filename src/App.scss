@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Poppins'; /*Can be any text*/
+  src:
+    local('Poppins'),
+    url('./fonts/Poppins-Light.ttf') format('truetype');
+}
+
+// @font-face {
+//   font-family: 'digitalMono';
+//   src: local('digitalMono'),
+//        url('./assets/fonts/digital-7 (mono).ttf') format('truetype'), /* Super Modern Browsers */
+// }
+
+body {
+  font-family: 'Poppins';
+  // background-color: black;
+  // overflow-x: hidden;
+
+  // font-family: digital;
+  // color: white;
+}
+
+// .container {
+//   max-width: 1400px;
+//   position: relative;
+//   padding: 0 60px;
+//   transform: translateX(-50%);
+//   left: 50%;
+// }
+
+// .notification-container {
+//   width: 600px;
+// }
+
+// @media (min-width: 0px) and (max-width: 768px) {
+//   .container {
+//     padding: 0 0px;
+//   }
+
+//   .notification-container {
+//     width: 80%;
+//   }
+// }

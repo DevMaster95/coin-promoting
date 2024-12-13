@@ -1,0 +1,269 @@
+.listCoinDiv {
+  margin-top: 100px;
+  /* margin-bottom: 20px; */
+  /* padding-left: 10px;
+    padding-right: 10px; */
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+}
+
+.listCoinDivWrap {
+  border-image-source: linear-gradient(to right, #ac42a7, #7ea1af);
+  border-image-slice: 1;
+  border-width: 3px;
+  border-style: solid;
+
+  background-color: #290825;
+  padding: 70px 70px 70px 70px;
+  /* width:70%; */
+  margin-bottom: 20px;
+}
+
+.listHeader {
+  /* margin:auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.listHeader img {
+  height: 60px;
+}
+.listHeader span {
+  font-size: 50px;
+}
+
+.uploadImgDivWrap {
+  display: flex;
+}
+.uploadImgDivWrap span {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.uploadFile {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.openFolderImg {
+  --size: 200px;
+  display: flex;
+  flex-direction: column;
+  width: var(--size);
+  /* border: white 1px solid; */
+}
+.openFolderImg img {
+  width: var(--size);
+  height: var(--size);
+  border: 1px solid #dc29df;
+  border-radius: 15px;
+}
+.imgUploadDiv {
+  border-radius: 20px;
+  border: 1px solid #7ea1af;
+  width: 100px;
+  height: 100px;
+}
+.openFolderImg img:hover {
+  border: 1px solid #7ea1af;
+}
+
+.getListedCoin {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.getListedCoin img {
+  width: 400px;
+}
+
+.listingNormalDiv {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.listHeader span {
+  font-weight: 1200;
+  font-size: 40px;
+  color: white;
+}
+.titleInput {
+  font-weight: 1200;
+  font-size: 20px;
+  color: white;
+}
+
+.listingInput {
+  background-color: transparent;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+  border: 1px #746089 solid;
+  border-radius: 15px;
+  padding-left: 15px;
+}
+.listingInput:hover {
+  border: 1px #dc29df solid;
+}
+.listingInput:focus-visible {
+  border: 1px #dc29df solid;
+}
+
+.listingInputDescription {
+  background-color: transparent;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+  border: 1px #746089 solid;
+  border-radius: 15px;
+  padding-left: 15px;
+  height: 200px;
+}
+
+.listingInputDescription:hover {
+  border: 1px #dc29df solid;
+}
+.listingInputDescription:focus-visible {
+  border: 1px #dc29df solid;
+}
+
+.radioDiv {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.radioDiv label {
+  color: white;
+  font-size: 20px;
+}
+.radioDiv img {
+  width: 25px;
+}
+
+.listingCheckboxDiv {
+  display: flex;
+  flex-direction: row;
+}
+.listingCheckboxDiv .whiteSpan {
+  color: white;
+  font-size: 20px;
+}
+.listingCheckboxDiv .redSpan {
+  color: #8a3d88;
+  font-size: 20px;
+}
+.listingBtnDiv {
+  display: flex;
+  margin-top: 80px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.listingBtnDiv button {
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 60px;
+  border-radius: 20px;
+  color: white;
+  font-size: 30px;
+  background-color: transparent;
+  /* margin-right: 20px; */
+  border: 1px solid #dc29df;
+}
+
+.listingBtnDiv button:hover {
+  background-image: linear-gradient(to right, #f610fe, #43b5e6);
+}
+
+.listingRadioDiv {
+  display: flex;
+  flex-direction: column;
+}
+.listingRadioDiv span {
+  color: white;
+}
+
+.react-datepicker__input-container input {
+  background: transparent;
+  border: 1px solid #746089;
+  color: white;
+  border-radius: 10px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.react-datepicker__input-container input:hover {
+  border: 1px #dc29df solid;
+}
+
+@media only screen and (max-width: 1900px) {
+  .listHeader {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1750px) {
+  .getListedCoin {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .listCoinDivWrap {
+    padding: 10px 10px 10px 10px;
+  }
+  .listHeader img {
+    height: 40px;
+  }
+  .listHeader span {
+    font-size: 50px;
+  }
+  .openFolderImg {
+    --size: 150px;
+    display: flex;
+    flex-direction: column;
+    width: var(--size);
+  }
+  .listingInput {
+    height: 30px;
+    font-size: 15px;
+  }
+
+  .titleInput {
+    font-size: 15px;
+  }
+
+  .listingInputDescription {
+    font-size: 15px;
+  }
+  .openFolderImg span {
+    font-size: 15px;
+  }
+
+  .listingCheckboxDiv .whiteSpan {
+    font-size: 15px;
+  }
+  .listingCheckboxDiv .redSpan {
+    font-size: 15px;
+  }
+
+  .listingBtnDiv button {
+    height: 40px;
+    font-size: 20px;
+  }
+  .listHeader span {
+    font-size: 30px;
+  }
+  .react-datepicker__input-container input {
+    border-radius: 15px;
+    height: 20px;
+    font-size: 15px;
+  }
+}

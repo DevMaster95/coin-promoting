@@ -1,0 +1,88 @@
+.TierCardDiv {
+  width: 300px;
+  height: 700px;
+
+  background-color: #290825;
+
+  border-style: solid;
+  border-image-source: linear-gradient(to right, #ac42a7, #7ea1af);
+  border-width: 3px;
+  border-image-slice: 1;
+
+  margin: 30px 30px 30px 30px;
+  padding: 30px 10px 10px 10px;
+
+  position: relative;
+}
+
+.TierCardHeadingDiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.TierCardHeadingDiv span {
+  color: white;
+  font-size: 30px;
+}
+
+.TierCardMainStringDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.tierCardEachLineDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: top;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.tierCardEachLineDiv img {
+  width: 30px;
+}
+
+.imgWrap {
+  margin-right: 5px;
+  padding-top: 3px;
+  align-items: top;
+}
+.tierCardEachLineDiv span {
+  color: white;
+  font-size: 20px;
+}
+
+.TierCardBottomDiv {
+  bottom: 20px;
+  position: absolute;
+  width: 100%;
+}
+
+.TierCardBottomWrapDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.TierCardBottomWrapDiv span {
+  color: white;
+  font-size: 18px;
+}
+
+.TierCardBottomWrapDiv button {
+  color: white;
+  font-size: 20px;
+  height: 40px;
+  width: 50%;
+  border-radius: 20px;
+  margin-top: 10px;
+  background-image: linear-gradient(to right, #f610fe, #43b5e6);
+}
+
+.TierCardBottomWrapDiv button:hover {
+  background-image: linear-gradient(to right, #43b5e6, #f610fe);
+}

@@ -1,0 +1,25 @@
+html {
+  --scrollbarBG: #cfd8dc;
+  --thumbBG: #90a4ae;
+}
+body {
+  margin: 0;
+  font-family: s;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* 
+code {
+  font-family: Poppins,
+    monospace;
+}
+
+button{
+  font-family: Poppins;
+}
+div{
+  font-family: Poppins;
+}
+span{
+  font-family: Poppins;
+} */

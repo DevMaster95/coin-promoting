@@ -1,0 +1,125 @@
+.intro {
+  &__banner {
+    img {
+      width: 100%;
+    }
+  }
+
+  &__drop {
+    position: relative;
+    text-align: center;
+
+    &__back {
+      position: relative;
+      bottom: -5px;
+
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+
+    &__date {
+      width: 30%;
+      position: absolute;
+      transform: translate3d(-50%, -50%, 0);
+      left: 50%;
+      top: 50%;
+
+      display: flex;
+      flex-direction: column;
+
+      img {
+        width: 100%;
+      }
+
+      &__mint {
+        width: 100%;
+        background: #19938d;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0.8vw;
+
+        button {
+          background: transparent;
+        }
+
+        &__minus {
+          width: 10%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        &__plus {
+          width: 10%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        &__value {
+          font-size: 80px;
+          padding: 0 5%;
+        }
+
+        &__place {
+          text-transform: uppercase;
+          font-size: 100px;
+          letter-spacing: 5px;
+          padding: 5px 0;
+          font-family: digital;
+          color: white;
+          margin-left: 7%;
+          .svg-inline--fa.fa-w-16 {
+            width: 0.4em;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  .intro {
+    &__drop {
+      &__date {
+        &__mint {
+          &__value {
+            font-size: 5vw;
+          }
+
+          &__place {
+            font-size: 6vw;
+            letter-spacing: 0.33vw;
+            padding: 0.33vw 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+.mint-spinner {
+  animation: spin 1s infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

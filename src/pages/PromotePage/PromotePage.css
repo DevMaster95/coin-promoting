@@ -1,0 +1,242 @@
+.promotePageDiv {
+}
+
+.promoteImgDiv {
+  margin-right: 50px;
+}
+
+.promotePageHeaderDiv {
+  display: flex;
+  flex-direction: row;
+}
+.promotePageLeftHeader {
+  margin: auto;
+}
+
+.promotePageRightHeader img {
+  width: 500px;
+}
+.promoteTitleSpan {
+  font-weight: bolder;
+  color: white;
+  font-size: 40px;
+}
+
+.promoteDescSpan {
+  color: white;
+  font-weight: 100;
+  font-size: 40px;
+}
+
+.promotePageList {
+  display: flex;
+  flex-direction: row;
+}
+
+.promoteDescDiv {
+  margin-top: 30px;
+  margin: auto;
+  width: 450px;
+}
+.promoteHeaderBannerDiv {
+  background-image: linear-gradient(to right, #f610fe, #43b5e6);
+  border-radius: 150px;
+  padding: 2px 2px 2px 2px;
+  width: 600px;
+}
+
+.promoteHeaderBannerDivWrapped {
+  background-color: #202d20;
+  border-radius: 150px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.headerBannerTitleSpan {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.headerBannerDescSpan {
+  color: #9d9d9d;
+  font-size: 25px;
+}
+
+.leftSideDescBnb {
+  color: yellow;
+  font-size: 25px;
+}
+
+.bnbAmountDiv {
+  border: 1px solid yellow;
+  font-size: 25px;
+  color: yellow;
+  width: 150px;
+  text-align: center;
+  margin-left: auto;
+}
+
+.bnbAmountDiv:hover {
+  background-image: linear-gradient(to right, #f610fe, #43b5e6);
+}
+
+.dayPromotionBnb {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  padding-right: 0px;
+}
+.footerPromote {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.prmoteFooterSpan {
+  color: white;
+  font-size: 25px;
+}
+
+.promoteBuyNowBtnDiv {
+  background-image: linear-gradient(to right, #f610fe, #43b5e6);
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  border-radius: 20px;
+  width: 500px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.promoteBuyNowBtnDiv:hover {
+  background-image: linear-gradient(to right, #43b5e6, #f610fe);
+}
+
+@media only screen and (max-width: 1500px) {
+  .promoteImgDiv img {
+    width: 450px;
+  }
+  .promotePageRightHeader img {
+    width: 300px;
+  }
+  .promoteHeaderBannerDiv {
+    width: 350px;
+  }
+
+  .bnbAmountDiv {
+    width: 100px;
+  }
+  .promoteBuyNowBtnDiv {
+    width: 300px;
+  }
+  .promoteTitleSpan {
+    font-size: 30px;
+  }
+  .promoteDescDiv {
+    width: 400px;
+  }
+  .promoteDescSpan {
+    font-size: 30px;
+  }
+  .headerBannerTitleSpan {
+    font-size: 20px;
+  }
+  .headerBannerDescSpan {
+    font-size: 20px;
+  }
+  .leftSideDescBnb {
+    font-size: 20px;
+  }
+
+  .bnbAmountDiv {
+    font-size: 20px;
+  }
+  .promoteBuyNowBtnDiv {
+    font-size: 20px;
+  }
+  .dayPromotionBnb {
+    margin-top: 10px;
+  }
+  .prmoteFooterSpan {
+    font-size: 20px;
+  }
+  .footerPromote {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .promotePageHeaderDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .promotePageList {
+    flex-direction: column;
+  }
+  .promoteImgDiv {
+    margin: auto;
+  }
+  .promoteImgDiv img {
+    width: 300px;
+  }
+  .promotePageRightHeader img {
+    width: 250px;
+  }
+  .promoteDescDiv {
+    width: 300px;
+  }
+  .promoteHeaderBannerDiv {
+    width: 300px;
+    margin: auto;
+  }
+
+  .bnbAmountDiv {
+    width: 100px;
+  }
+  .promoteBuyNowBtnDiv {
+    width: 150px;
+    margin: auto;
+  }
+  .promoteTitleSpan {
+    font-size: 30px;
+  }
+  .promoteDescSpan {
+    font-size: 30px;
+  }
+  .headerBannerTitleSpan {
+    font-size: 20px;
+  }
+  .headerBannerDescSpan {
+    font-size: 20px;
+  }
+  .leftSideDescBnb {
+    font-size: 20px;
+    /* margin-right: 10px; */
+  }
+
+  .bnbAmountDiv {
+    font-size: 20px;
+    /* margin-left: 10px; */
+  }
+  .promoteBuyNowBtnDiv {
+    font-size: 20px;
+    /* margin: auto; */
+  }
+  .dayPromotionBnb {
+    margin-top: 10px;
+    /* margin-left: 10px;
+        margin-right: 10px; */
+  }
+  .prmoteFooterSpan {
+    font-size: 20px;
+  }
+  .footerPromote {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
